@@ -3,18 +3,20 @@
     height: 650px;
     background-color: blue;
     display: flex;
+
     justify-content: space-around;
 }
 
 .left{
    width: 50%;
    height: 90%;
-   border: 1px solid white;
+   margin: auto;
 }
 
 .right{
     width: 30%;
     height: 90%;
+    margin: auto;
     border: 1px solid white;
 }
 

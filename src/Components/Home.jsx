@@ -1,18 +1,16 @@
 import React from 'react'
-import Navbar from './Navbar';
 import '../Styles/Home.css'
+import Description from './Description';
+import Subscription from './Subscription';
 export default function Home() {
   return (
-    <div>
-      <Navbar/>
       <div className='home'>
           <div className="left">
-
+              <Description/>
           </div>
           <div className="right">
-
+               <Subscription/>
           </div>
       </div>
-    </div>
   )
 }
