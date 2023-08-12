@@ -18,7 +18,11 @@
 .green-text {
     color: green;
     font-weight: 600;
-  }
+}
+.strike{
+    text-decoration: line-through;
+    
+}
 
   .desc{
     width: 70%;
@@ -29,7 +33,7 @@
     width: 100%;
     height: 10%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 6%;
     display: flex;
     color: aliceblue;
   }

@@ -1,0 +1,178 @@
+.subscription {
+  width: 99%;
+  height: 99%;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.sign {
+  height: 5%;
+}
+.signup {
+  width: 99%;
+  height: 9%;
+  margin: auto;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.number {
+  background-color: green;
+  height: 25px;
+  color: aliceblue;
+  width: 25px;
+  margin-left: 11px;
+  border-radius: 50%;
+  margin-bottom: -12px;
+  position: relative;
+}
+.number::before {
+  content: "\0a0\00a0";
+}
+.text {
+  font-size: 13px;
+  color: rgb(26, 21, 21);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3{
+    text-align: center;
+    color: rgb(58, 55, 55);
+}
+.checkbox-button {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 12px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #504b4b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .checkbox-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  
+    /* New styles for expired checkbox-button */
+    &.expired {
+      background-color: rgb(167, 139, 139);
+      pointer-events: none;
+    }
+  
+    &:hover {
+      background-color: #e0e0e0;
+      transform: translateY(-2px);
+    }
+  }
+  .limited-offer{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 12px;
+    border: 1px solid #504b4b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .checkbox-button:hover{
+    border: 2px solid green;
+  }
+
+  .checkbox-input {
+    margin: 0;
+    border-radius: 50% !important;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .total-text {
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    line-height: 6px;
+  }
+  .total-text>span~span{
+    color: grey;
+    font-size: 12px;
+  }
+
+  hr{
+    width: 90%;
+    margin-top: 15px;
+  }
+  .fee{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: -4%;
+    color: rgb(59, 55, 55);
+    font-size: 13px;
+    justify-content: space-between;
+  }
+  .expire{
+    width: 70px;
+    height: 10px;
+    border: 1px solid black;
+    margin-top: -1%;
+  }
+  .valid{
+    font-size: 13px;
+    color: rgb(226, 13, 13);
+  }
+  .valid-till{
+    font-size: 13px;
+    color: grey;
+  }
+  .grid{
+    display: grid;
+  }
+  .flex{
+    display: flex;
+    gap: 5px;
+  }
+  .flex-item{
+    width: 91%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+  .pay-button{
+    width: 91%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pay-button button{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pay-button>button~button{
+    background-color: darkcyan;
+    color: aliceblue;
+    border: none;
+  }
+  .pay-button button{
+    color: rgb(168, 25, 114);
+    border: 1px solid rgb(168, 25, 114);
+  }

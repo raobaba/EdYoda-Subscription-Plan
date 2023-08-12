@@ -122,6 +122,8 @@ body, ul {
   .menu-icon {
   display: block;
   }
+  .courses,
+  .programs,
    .join-now,
   .login-btn {
     display: none;
